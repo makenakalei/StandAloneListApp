@@ -1,5 +1,6 @@
 **CMSI 2022** Mobile Application Development, Spring 2022
 
+
 # Assignment 0210
 We start our practicum with a standalone mobile app—one that does not need to communicate with other servers or services in order to do what it seeks to do. For this assignment, we’d like you to demonstrate:
 * The ability to compose and lay out views

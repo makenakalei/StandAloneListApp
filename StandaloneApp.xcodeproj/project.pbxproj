@@ -14,6 +14,18 @@
 		5D1764E827A31DC90087B449 /* StandaloneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1764E727A31DC90087B449 /* StandaloneAppTests.swift */; };
 		5D1764F227A31DC90087B449 /* StandaloneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1764F127A31DC90087B449 /* StandaloneAppUITests.swift */; };
 		5D1764F427A31DC90087B449 /* StandaloneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1764F327A31DC90087B449 /* StandaloneAppUITestsLaunchTests.swift */; };
+		5D655EF927B2FD30006793D4 /* tarotData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D655EF827B2FD30006793D4 /* tarotData.json */; };
+		5D97C30E27B4A31100265B0E /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C30D27B4A31100265B0E /* CardImage.swift */; };
+		5D97C31027B4AF7E00265B0E /* TarotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C30F27B4AF7E00265B0E /* TarotCard.swift */; };
+		5D97C31227B4C54400265B0E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C31127B4C54400265B0E /* ModelData.swift */; };
+		5D97C31727B4C65500265B0E /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C31627B4C65500265B0E /* CardRow.swift */; };
+		5D97C31927B5C1B800265B0E /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C31827B5C1B800265B0E /* CardList.swift */; };
+		5D97C31B27B5CAB100265B0E /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C31A27B5CAB100265B0E /* CardDetail.swift */; };
+		5D97C31D27B5EDBA00265B0E /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C31C27B5EDBA00265B0E /* FavoriteButton.swift */; };
+		5D97C32127B5F3C700265B0E /* StarParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C32027B5F3C700265B0E /* StarParameters.swift */; };
+		5D97C32327B5F52800265B0E /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C32227B5F52800265B0E /* BadgeBackground.swift */; };
+		5D97C32527B5FD7F00265B0E /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C32427B5FD7F00265B0E /* BadgeSymbol.swift */; };
+		5D97C32727B601FB00265B0E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C32627B601FB00265B0E /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		5D1764ED27A31DC90087B449 /* StandaloneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandaloneAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1764F127A31DC90087B449 /* StandaloneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandaloneAppUITests.swift; sourceTree = "<group>"; };
 		5D1764F327A31DC90087B449 /* StandaloneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandaloneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D655EF827B2FD30006793D4 /* tarotData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tarotData.json; path = StandaloneApp/resources/tarotData.json; sourceTree = SOURCE_ROOT; };
+		5D97C30D27B4A31100265B0E /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+		5D97C30F27B4AF7E00265B0E /* TarotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotCard.swift; sourceTree = "<group>"; };
+		5D97C31127B4C54400265B0E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		5D97C31627B4C65500265B0E /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
+		5D97C31827B5C1B800265B0E /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		5D97C31A27B5CAB100265B0E /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		5D97C31C27B5EDBA00265B0E /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		5D97C32027B5F3C700265B0E /* StarParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarParameters.swift; sourceTree = "<group>"; };
+		5D97C32227B5F52800265B0E /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		5D97C32427B5FD7F00265B0E /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		5D97C32627B601FB00265B0E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				5D1764D627A31DC70087B449 /* StandaloneAppApp.swift */,
-				5D1764D827A31DC70087B449 /* ContentView.swift */,
+				5D97C31527B4C5DE00265B0E /* Model */,
+				5D97C31327B4C5B500265B0E /* Views */,
+				5D655EFA27B2FD62006793D4 /* resources */,
 				5D1764DA27A31DC80087B449 /* Assets.xcassets */,
 				5D1764DC27A31DC80087B449 /* Preview Content */,
 			);
@@ -125,6 +151,64 @@
 				5D1764F327A31DC90087B449 /* StandaloneAppUITestsLaunchTests.swift */,
 			);
 			path = StandaloneAppUITests;
+			sourceTree = "<group>";
+		};
+		5D655EFA27B2FD62006793D4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D655EF827B2FD30006793D4 /* tarotData.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5D97C31327B4C5B500265B0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D1764D827A31DC70087B449 /* ContentView.swift */,
+				5D97C31E27B5EF0000265B0E /* Helper */,
+				5D97C31F27B5EF2000265B0E /* Cards */,
+				5D97C32827B6029C00265B0E /* Badge */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D97C31527B4C5DE00265B0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D97C31127B4C54400265B0E /* ModelData.swift */,
+				5D97C30F27B4AF7E00265B0E /* TarotCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D97C31E27B5EF0000265B0E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5D97C30D27B4A31100265B0E /* CardImage.swift */,
+				5D97C31C27B5EDBA00265B0E /* FavoriteButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5D97C31F27B5EF2000265B0E /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				5D97C31627B4C65500265B0E /* CardRow.swift */,
+				5D97C31827B5C1B800265B0E /* CardList.swift */,
+				5D97C31A27B5CAB100265B0E /* CardDetail.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		5D97C32827B6029C00265B0E /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				5D97C32627B601FB00265B0E /* SwiftUIView.swift */,
+				5D97C32027B5F3C700265B0E /* StarParameters.swift */,
+				5D97C32227B5F52800265B0E /* BadgeBackground.swift */,
+				5D97C32427B5FD7F00265B0E /* BadgeSymbol.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D655EF927B2FD30006793D4 /* tarotData.json in Resources */,
 				5D1764DE27A31DC80087B449 /* Preview Assets.xcassets in Resources */,
 				5D1764DB27A31DC80087B449 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D97C32727B601FB00265B0E /* SwiftUIView.swift in Sources */,
+				5D97C31B27B5CAB100265B0E /* CardDetail.swift in Sources */,
+				5D97C32127B5F3C700265B0E /* StarParameters.swift in Sources */,
+				5D97C30E27B4A31100265B0E /* CardImage.swift in Sources */,
 				5D1764D927A31DC70087B449 /* ContentView.swift in Sources */,
+				5D97C31D27B5EDBA00265B0E /* FavoriteButton.swift in Sources */,
+				5D97C32527B5FD7F00265B0E /* BadgeSymbol.swift in Sources */,
+				5D97C31227B4C54400265B0E /* ModelData.swift in Sources */,
+				5D97C32327B5F52800265B0E /* BadgeBackground.swift in Sources */,
+				5D97C31027B4AF7E00265B0E /* TarotCard.swift in Sources */,
+				5D97C31727B4C65500265B0E /* CardRow.swift in Sources */,
 				5D1764D727A31DC70087B449 /* StandaloneAppApp.swift in Sources */,
+				5D97C31927B5C1B800265B0E /* CardList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
